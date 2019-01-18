@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900BEC2021EB64D2009702F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC1F21EB64D2009702F2 /* AppDelegate.swift */; };
+		900BEC2221EB64D2009702F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC2121EB64D2009702F2 /* ViewController.swift */; };
+		900BEC2521EB64D2009702F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900BEC2321EB64D2009702F2 /* Main.storyboard */; };
+		900BEC2721EB64D4009702F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900BEC2621EB64D4009702F2 /* Assets.xcassets */; };
+		900BEC2A21EB64D4009702F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900BEC2821EB64D4009702F2 /* LaunchScreen.storyboard */; };
+		900BEC3521EB64D4009702F2 /* Hard_of_HearingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC3421EB64D4009702F2 /* Hard_of_HearingTests.swift */; };
+		900BEC4021EB64D4009702F2 /* Hard_of_HearingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC3F21EB64D4009702F2 /* Hard_of_HearingUITests.swift */; };
+		900BEC4E21EB64F1009702F2 /* Acount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC4D21EB64F1009702F2 /* Acount.swift */; };
+		900BEC5021EB6620009702F2 /* SettingPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC4F21EB6620009702F2 /* SettingPlatform.swift */; };
+		900BEC5221EB67A2009702F2 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BEC5121EB67A2009702F2 /* Text.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900BEC3121EB64D4009702F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900BEC1421EB64D2009702F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900BEC1B21EB64D2009702F2;
+			remoteInfo = "Hard of Hearing";
+		};
+		900BEC3C21EB64D4009702F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900BEC1421EB64D2009702F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900BEC1B21EB64D2009702F2;
+			remoteInfo = "Hard of Hearing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900BEC1C21EB64D2009702F2 /* Hard of Hearing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hard of Hearing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900BEC1F21EB64D2009702F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900BEC2121EB64D2009702F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900BEC2421EB64D2009702F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900BEC2621EB64D4009702F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900BEC2921EB64D4009702F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900BEC2B21EB64D4009702F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900BEC3021EB64D4009702F2 /* Hard of HearingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hard of HearingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900BEC3421EB64D4009702F2 /* Hard_of_HearingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hard_of_HearingTests.swift; sourceTree = "<group>"; };
+		900BEC3621EB64D4009702F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900BEC3B21EB64D4009702F2 /* Hard of HearingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hard of HearingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900BEC3F21EB64D4009702F2 /* Hard_of_HearingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hard_of_HearingUITests.swift; sourceTree = "<group>"; };
+		900BEC4121EB64D4009702F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900BEC4D21EB64F1009702F2 /* Acount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acount.swift; sourceTree = "<group>"; };
+		900BEC4F21EB6620009702F2 /* SettingPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPlatform.swift; sourceTree = "<group>"; };
+		900BEC5121EB67A2009702F2 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900BEC1921EB64D2009702F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900BEC2D21EB64D4009702F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900BEC3821EB64D4009702F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900BEC1321EB64D2009702F2 = {
+			isa = PBXGroup;
+			children = (
+				900BEC1E21EB64D2009702F2 /* Hard of Hearing */,
+				900BEC3321EB64D4009702F2 /* Hard of HearingTests */,
+				900BEC3E21EB64D4009702F2 /* Hard of HearingUITests */,
+				900BEC1D21EB64D2009702F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900BEC1D21EB64D2009702F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900BEC1C21EB64D2009702F2 /* Hard of Hearing.app */,
+				900BEC3021EB64D4009702F2 /* Hard of HearingTests.xctest */,
+				900BEC3B21EB64D4009702F2 /* Hard of HearingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900BEC1E21EB64D2009702F2 /* Hard of Hearing */ = {
+			isa = PBXGroup;
+			children = (
+				900BEC1F21EB64D2009702F2 /* AppDelegate.swift */,
+				900BEC2121EB64D2009702F2 /* ViewController.swift */,
+				900BEC2321EB64D2009702F2 /* Main.storyboard */,
+				900BEC5121EB67A2009702F2 /* Text.swift */,
+				900BEC4F21EB6620009702F2 /* SettingPlatform.swift */,
+				900BEC4D21EB64F1009702F2 /* Acount.swift */,
+				900BEC2621EB64D4009702F2 /* Assets.xcassets */,
+				900BEC2821EB64D4009702F2 /* LaunchScreen.storyboard */,
+				900BEC2B21EB64D4009702F2 /* Info.plist */,
+			);
+			path = "Hard of Hearing";
+			sourceTree = "<group>";
+		};
+		900BEC3321EB64D4009702F2 /* Hard of HearingTests */ = {
+			isa = PBXGroup;
+			children = (
+				900BEC3421EB64D4009702F2 /* Hard_of_HearingTests.swift */,
+				900BEC3621EB64D4009702F2 /* Info.plist */,
+			);
+			path = "Hard of HearingTests";
+			sourceTree = "<group>";
+		};
+		900BEC3E21EB64D4009702F2 /* Hard of HearingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				900BEC3F21EB64D4009702F2 /* Hard_of_HearingUITests.swift */,
+				900BEC4121EB64D4009702F2 /* Info.plist */,
+			);
+			path = "Hard of HearingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900BEC1B21EB64D2009702F2 /* Hard of Hearing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900BEC4421EB64D4009702F2 /* Build configuration list for PBXNativeTarget "Hard of Hearing" */;
+			buildPhases = (
+				900BEC1821EB64D2009702F2 /* Sources */,
+				900BEC1921EB64D2009702F2 /* Frameworks */,
+				900BEC1A21EB64D2009702F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hard of Hearing";
+			productName = "Hard of Hearing";
+			productReference = 900BEC1C21EB64D2009702F2 /* Hard of Hearing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900BEC2F21EB64D4009702F2 /* Hard of HearingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900BEC4721EB64D4009702F2 /* Build configuration list for PBXNativeTarget "Hard of HearingTests" */;
+			buildPhases = (
+				900BEC2C21EB64D4009702F2 /* Sources */,
+				900BEC2D21EB64D4009702F2 /* Frameworks */,
+				900BEC2E21EB64D4009702F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900BEC3221EB64D4009702F2 /* PBXTargetDependency */,
+			);
+			name = "Hard of HearingTests";
+			productName = "Hard of HearingTests";
+			productReference = 900BEC3021EB64D4009702F2 /* Hard of HearingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		900BEC3A21EB64D4009702F2 /* Hard of HearingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900BEC4A21EB64D4009702F2 /* Build configuration list for PBXNativeTarget "Hard of HearingUITests" */;
+			buildPhases = (
+				900BEC3721EB64D4009702F2 /* Sources */,
+				900BEC3821EB64D4009702F2 /* Frameworks */,
+				900BEC3921EB64D4009702F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900BEC3D21EB64D4009702F2 /* PBXTargetDependency */,
+			);
+			name = "Hard of HearingUITests";
+			productName = "Hard of HearingUITests";
+			productReference = 900BEC3B21EB64D4009702F2 /* Hard of HearingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900BEC1421EB64D2009702F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = StarterHack;
+				TargetAttributes = {
+					900BEC1B21EB64D2009702F2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					900BEC2F21EB64D4009702F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 900BEC1B21EB64D2009702F2;
+					};
+					900BEC3A21EB64D4009702F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 900BEC1B21EB64D2009702F2;
+					};
+				};
+			};
+			buildConfigurationList = 900BEC1721EB64D2009702F2 /* Build configuration list for PBXProject "Hard of Hearing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900BEC1321EB64D2009702F2;
+			productRefGroup = 900BEC1D21EB64D2009702F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900BEC1B21EB64D2009702F2 /* Hard of Hearing */,
+				900BEC2F21EB64D4009702F2 /* Hard of HearingTests */,
+				900BEC3A21EB64D4009702F2 /* Hard of HearingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900BEC1A21EB64D2009702F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900BEC2A21EB64D4009702F2 /* LaunchScreen.storyboard in Resources */,
+				900BEC2721EB64D4009702F2 /* Assets.xcassets in Resources */,
+				900BEC2521EB64D2009702F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900BEC2E21EB64D4009702F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900BEC3921EB64D4009702F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900BEC1821EB64D2009702F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900BEC4E21EB64F1009702F2 /* Acount.swift in Sources */,
+				900BEC5221EB67A2009702F2 /* Text.swift in Sources */,
+				900BEC2221EB64D2009702F2 /* ViewController.swift in Sources */,
+				900BEC2021EB64D2009702F2 /* AppDelegate.swift in Sources */,
+				900BEC5021EB6620009702F2 /* SettingPlatform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900BEC2C21EB64D4009702F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900BEC3521EB64D4009702F2 /* Hard_of_HearingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900BEC3721EB64D4009702F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900BEC4021EB64D4009702F2 /* Hard_of_HearingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900BEC3221EB64D4009702F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900BEC1B21EB64D2009702F2 /* Hard of Hearing */;
+			targetProxy = 900BEC3121EB64D4009702F2 /* PBXContainerItemProxy */;
+		};
+		900BEC3D21EB64D4009702F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900BEC1B21EB64D2009702F2 /* Hard of Hearing */;
+			targetProxy = 900BEC3C21EB64D4009702F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		900BEC2321EB64D2009702F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900BEC2421EB64D2009702F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900BEC2821EB64D4009702F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900BEC2921EB64D4009702F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900BEC4221EB64D4009702F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900BEC4321EB64D4009702F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900BEC4521EB64D4009702F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DW53YCMYYD;
+				INFOPLIST_FILE = "Hard of Hearing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghost123123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900BEC4621EB64D4009702F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DW53YCMYYD;
+				INFOPLIST_FILE = "Hard of Hearing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghost123123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		900BEC4821EB64D4009702F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 965572D63Q;
+				INFOPLIST_FILE = "Hard of HearingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StarterHack.Hard-of-HearingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hard of Hearing.app/Hard of Hearing";
+			};
+			name = Debug;
+		};
+		900BEC4921EB64D4009702F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 965572D63Q;
+				INFOPLIST_FILE = "Hard of HearingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StarterHack.Hard-of-HearingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hard of Hearing.app/Hard of Hearing";
+			};
+			name = Release;
+		};
+		900BEC4B21EB64D4009702F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 965572D63Q;
+				INFOPLIST_FILE = "Hard of HearingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StarterHack.Hard-of-HearingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hard of Hearing";
+			};
+			name = Debug;
+		};
+		900BEC4C21EB64D4009702F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 965572D63Q;
+				INFOPLIST_FILE = "Hard of HearingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StarterHack.Hard-of-HearingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hard of Hearing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900BEC1721EB64D2009702F2 /* Build configuration list for PBXProject "Hard of Hearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900BEC4221EB64D4009702F2 /* Debug */,
+				900BEC4321EB64D4009702F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900BEC4421EB64D4009702F2 /* Build configuration list for PBXNativeTarget "Hard of Hearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900BEC4521EB64D4009702F2 /* Debug */,
+				900BEC4621EB64D4009702F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900BEC4721EB64D4009702F2 /* Build configuration list for PBXNativeTarget "Hard of HearingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900BEC4821EB64D4009702F2 /* Debug */,
+				900BEC4921EB64D4009702F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900BEC4A21EB64D4009702F2 /* Build configuration list for PBXNativeTarget "Hard of HearingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900BEC4B21EB64D4009702F2 /* Debug */,
+				900BEC4C21EB64D4009702F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900BEC1421EB64D2009702F2 /* Project object */;
+}
